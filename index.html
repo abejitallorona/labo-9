@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <title>Facebook post</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="container">
+        <div class="cajatexto">
+
+            <img src="./fotos/user.jpg" alt="">
+            <input type="text" id="post-input" placeholder="¿En qué estás pensando, Andrés?">
+        </div>
+        <div class="caja-publicaciones"></div>
+    </section>
+    <section class="container__modal">
+        <div class="modal__caja">
+            <form>
+                <h1>Crear publicación</h1>
+                <button class="modal__cerrar">&times;</button>
+
+                <div class="caja__nombre">
+                    <img src="./fotos/user.jpg" alt="">
+                    <label for="texto">Andrés Pepito</label>
+                </div>
+                <input name="texto" type="text" placeholder="¿En qué estás pensando, Andrés?">
+                <button class="modal__enviar" type="submit">Publicar</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+<footer>
+    <script type="module" src="./script.js"></script>
+</footer>
+
+</html>
